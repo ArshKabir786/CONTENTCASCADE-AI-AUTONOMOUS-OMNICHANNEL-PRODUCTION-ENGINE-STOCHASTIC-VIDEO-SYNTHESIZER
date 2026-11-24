@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+groq
+python-dotenv
+pydantic
+google-cloud-texttospeech
+google-cloud-aiplatform
+google-auth
+requests
+elevenlabs
+gtts

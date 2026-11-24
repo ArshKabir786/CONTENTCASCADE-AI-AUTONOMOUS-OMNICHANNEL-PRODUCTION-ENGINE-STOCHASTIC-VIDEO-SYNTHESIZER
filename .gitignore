@@ -1,0 +1,29 @@
+# Secrets & credentials (NEVER commit)
+.env
+.env.*
+backend/.env
+**/gcp-credentials.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Generated pipeline & media artifacts
+backend/pipeline_assets*/
+backend/*.zip
+backend/temp_captions.ass
+frontend/public/output_*.mp4
+frontend/public/scene_*.png
+
+# OS
+.DS_Store
+Thumbs.db
